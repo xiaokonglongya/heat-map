@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>热力图示例</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/heatmap.js@2.0.5/build/heatmap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>热力图示例</h1>
+      <p>鼠标在下方区域停留会添加热点</p>
+      <div id="heatmap-container"></div>
+      <div class="controls">
+        <button id="clear-button">清除热点</button>
+        <div class="stats">热点数量: <span id="click-count">0</span></div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
